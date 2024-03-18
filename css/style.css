@@ -1,0 +1,390 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+
+font-family: "Jost", sans-serif;
+
+font-family: "Jomhuria", serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* INICIO HEADER */
+
+
+.header-index{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    font-family: "Jost", sans-serif;
+}
+
+.nav-bar{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.nav-bar a{
+    text-decoration: none;
+    margin: 65px;
+    font-family: "Jomhuria", serif;
+    font-size: 48px;
+    color: black;
+}
+
+
+.logo img{
+    height: 100px;
+}
+
+.titulo a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* FIN HEADER */
+
+
+
+/* INICIO MAIN */
+
+
+.main-index{
+    background-image: linear-gradient(rgba(255, 255, 0, 0.350),rgba(255, 255, 0, 0.350)),url("../assets/img/fondo_cancha.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 685px;
+
+}
+
+.banners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 685px;
+}
+
+
+/* FIN MAIN */
+
+
+
+/* INCIO FOOTER */
+
+
+.footer-index{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.ubicacion a{
+    text-decoration: none;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+/* FIN FOOTER */
+
+
+
+/* FIN DE INDEX HTML */
+
+
+
+
+
+/* INCIO CONTACTO HTML */
+
+.main-contacto{
+    background-color: yellow;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 685px;
+
+}
+
+.contact-form {
+    background-color: red;
+    padding: 50px;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-division button{
+    height: 40px;
+    width: 90px;
+    background-color: yellow;
+    border-radius: 5px;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+:placeholder-shown{
+    padding: 3px;
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.footer-contacto{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+
+#consulta{
+    max-width: 350px;
+    max-height: 300px;
+}
+
+/* FIN DE CONTACTO HTML */
+
+
+
+/* INICIO DE TIENDA HTML */
+
+.main-tienda{
+    background-color: yellow;
+    padding-top: 20px;
+}
+
+.productos{
+    text-align: center;
+}
+
+.productos h2{
+    font-family: "Jost", sans-serif;
+    font-size: 70px;
+}
+
+.articulos{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.card img{
+    border: 3px solid black;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.descripcion h3{
+    margin: 5px;
+    font-family: "Jomhuria", serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.descripcion p{
+    margin: 10px;
+    margin-top: 0px;
+    font-family: "Jomhuria", serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.descripcion button{
+    margin: 10px;
+    background-color: red;
+    height: 50px;
+    width: 175px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* FIN DE TIENDA HTML */
+
+
+/* INICIO DE FIXTURES HTML */
+
+.main-fixtures{
+    background-color: yellow;
+    height: 685px;
+}
+
+.contenedor-fixtures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 685px;
+}
+
+.fixtures{
+    background-color: black;
+    width: 90%;
+    text-align: center;
+}
+
+.fixtures a{
+    font-size: 50px;
+    font-family: "Jomhuria", serif;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* FIN DE FIXTURES HTML */
+
+
+
+/* INICIO DE RESULTADOS HTML */
+
+.main-resultados{
+    background-color: yellow;
+}
+
+.categorias{
+    font-family: "Jomhuria", serif;
+    font-size: 30px;
+}
+
+.resultados{
+    font-family: "Jomhuria", serif;
+    font-size: 30px;
+}
+
+.equipo-contrario{
+    font-family: "Jomhuria", serif;
+    font-size: 30px;
+}
+
+.resultados-mayores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partidos-mayores{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: "Jomhuria", serif;
+    font-size: 30px;
+}
+
+
+.resultados-inferiores{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-resultados h2{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+}
+
+.main-resultados h3{
+    background-color: rgba(0, 0, 0, 0.199);
+    width: 100%;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+}
+
+.partidos-inferiores{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+.inferiores-caballeros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inferiores-damas-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inferiores-damas-e{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* FIN DE RESULTADOS HTML */

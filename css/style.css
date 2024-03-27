@@ -63,6 +63,40 @@ font-family: "Jomhuria", serif;
     }
 }
 
+@media(max-width:425px){
+    /* .nav-bar{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 160px;
+    } */
+    
+    
+
+    .nav-bar{
+        background-color: red;
+        height: 160px;
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    ul a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-bar a{
+        margin: 0px;
+        font-size: 42px;
+    }
+}
+
 
 /* FIN HEADER */
 
@@ -76,7 +110,7 @@ font-family: "Jomhuria", serif;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 685px;
+    height: 683px;
 
 }
 
@@ -85,8 +119,14 @@ font-family: "Jomhuria", serif;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 685px;
+    height: 683px;
 }
+
+
+.banners-mobile{
+    display: none;
+}
+
 
 @media (max-width:768px){
     .main-index{
@@ -98,6 +138,33 @@ font-family: "Jomhuria", serif;
     .banners img{
         width: 200px;
     }
+    .banners-mobile{
+        display: none;
+    }
+}
+
+@media (max-width:425px){
+
+
+
+    .banners{
+        display: none;
+    }
+
+    .main-index{
+        height: 690px;
+    }
+
+    .banners-mobile{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .banners-mobile div{
+        margin: 10px
+    }
+
 }
 
 

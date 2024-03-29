@@ -401,6 +401,7 @@ font-family: "Jomhuria", serif;
     .descripcion p{
         margin: 0px;
 }
+}
 
 @media(max-width:425px){
 
@@ -414,7 +415,7 @@ font-family: "Jomhuria", serif;
         font-size: 40px;
     }
 
-    
+
 
 }
 

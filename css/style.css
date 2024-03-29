@@ -64,15 +64,6 @@ font-family: "Jomhuria", serif;
 }
 
 @media(max-width:425px){
-    /* .nav-bar{
-        background-color: red;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 160px;
-    } */
-    
-    
 
     .nav-bar{
         background-color: red;
@@ -144,7 +135,6 @@ font-family: "Jomhuria", serif;
 }
 
 @media (max-width:425px){
-
 
 
     .banners{
@@ -286,6 +276,22 @@ font-family: "Jomhuria", serif;
     }
     }
 
+@media(max-width:425px){
+
+    .main-contacto{
+        height: 550px;
+    }
+
+    .contact-form {
+        width: 350px;
+}
+
+    .contact-container {
+        height: 550px;
+
+}
+}
+
 /* FIN DE CONTACTO HTML */
 
 
@@ -309,7 +315,7 @@ font-family: "Jomhuria", serif;
 .articulos{
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .card{
@@ -321,6 +327,8 @@ font-family: "Jomhuria", serif;
 }
 
 .card img{
+    width: 250px;
+    height: 250px;
     border: 3px solid black;
 }
 
@@ -357,6 +365,59 @@ font-family: "Jomhuria", serif;
     font-size: 25px;
 }
 
+@media(max-width:768px){
+
+    .main-tienda{
+        padding-top: 10px;
+    }
+
+    .articulos{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card{
+        margin: 10px;
+    }
+
+    .card img{
+        width: 150px;
+        height: 150px;
+        border: 3px solid black;
+    }
+
+    .productos h2{
+        font-size: 50px;
+    }
+
+    .descripcion button{
+        height: 40px;
+        width: 150px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .descripcion p{
+        margin: 0px;
+}
+
+@media(max-width:425px){
+
+    .articulos{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .productos h2{
+        font-size: 40px;
+    }
+
+    
+
+}
+
 /* FIN DE TIENDA HTML */
 
 
@@ -388,6 +449,23 @@ font-family: "Jomhuria", serif;
     color: white;
 }
 
+@media(max-width:425px){
+
+    .fixtures a{
+        font-size: 40px;
+    }
+
+    .contenedor-fixtures{
+        height: 550px;
+    }
+
+    .main-fixtures{
+        background-color: yellow;
+        height: 550px;
+    }
+
+}
+
 
 /* FIN DE FIXTURES HTML */
 
@@ -399,20 +477,10 @@ font-family: "Jomhuria", serif;
     background-color: yellow;
 }
 
-.categorias{
+.partidos{
     font-family: "Jomhuria", serif;
     font-size: 30px;
-}
-
-.resultados{
-    font-family: "Jomhuria", serif;
-    font-size: 30px;
-}
-
-.equipo-contrario{
-    font-family: "Jomhuria", serif;
-    font-size: 30px;
-}
+} 
 
 .resultados-mayores{
     display: flex;
@@ -459,25 +527,21 @@ font-family: "Jomhuria", serif;
 }
 
 
-.inferiores-caballeros{
+.inferiores{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.inferiores-damas-a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media(max-width:425px){
+
+    .partidos-mayores{
+        width: 400px;
+    }
+
+    .partidos-inferiores{
+        width: 400px;
+    }
 }
-
-.inferiores-damas-e{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
 
 /* FIN DE RESULTADOS HTML */

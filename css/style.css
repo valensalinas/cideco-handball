@@ -28,6 +28,10 @@ font-family: "Jomhuria", serif;
     font-family: "Jost", sans-serif;
 }
 
+h1:hover{
+    color: red;
+}
+
 .nav-bar{
     background-color: red;
     display: flex;
@@ -38,6 +42,9 @@ font-family: "Jomhuria", serif;
     justify-items: center;
 }
 
+.nav-bar a:hover{
+    color:white;
+}
 
 .nav-bar a{
     text-decoration: none;
@@ -101,7 +108,7 @@ font-family: "Jomhuria", serif;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 683px;
+    height: 685px;
 
 }
 
@@ -110,12 +117,19 @@ font-family: "Jomhuria", serif;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 683px;
+    height: 685px;
 }
 
+.banners img:hover{
+    filter: brightness(2)
+}
 
 .banners-mobile{
     display: none;
+}
+
+.ubicacion a:hover{
+    color: red;
 }
 
 
@@ -547,3 +561,39 @@ font-family: "Jomhuria", serif;
 }
 
 /* FIN DE RESULTADOS HTML */
+
+
+
+/* INICIO CARRUSEL HTML */
+
+.h1-carrusel{
+    margin-bottom: 0px;
+}
+
+.ul-carrusel{
+    padding: 0px;
+    margin-top: -12px;
+}
+
+.footer-carrusel{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    height: 56px;
+}
+
+h5{
+    background-color: black;
+    color: yellow;
+    font-size: 50px;
+    font-family: "Jost", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* FIN DE CARRUSEL HTML */

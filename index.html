@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIDECO Handball</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../assets/img/escudo_cideco.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="header-index">
         <div class="logo">
-            <a href="#"><img src="./assets/img/escudo_cideco.png" alt="Escudo de Cideco"></a>
+            <a href="#"><img src="../assets/img/escudo_cideco.png" alt="Escudo de Cideco"></a>
         </div>
         <div class="titulo">
             <a href="#"><h1>CIDECO HANDBALL</h1></a>
@@ -17,49 +19,85 @@
         <div class="nav-bar">
             <nav>
                 <ul>
-                    <a href="./pages/tienda.html">TIENDA</a>
-                    <a href="./pages/fixtures.html">FIXTURES</a>
-                    <a href="./pages/resultados.html">RESULTADOS</a>
-                    <a href="./pages/contacto.html">CONTACTO</a>
+                    <a href="./tienda.html">TIENDA</a>
+                    <a href="./fixtures.html">FIXTURES</a>
+                    <a href="./pages/liga_de_honor.html">LIGA DE HONOR</a>
+                    <a href="./resultados.html">RESULTADOS</a>
+                    <a href="./contacto.html">CONTACTO</a>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main class="main-index">
-        <section class="banners">
-            <div class="banner-tienda">
-                <a href="./pages/tienda.html"><img src="./assets/img/banner_tienda.png" alt="TIENDA"></a>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="banner-resultados">
-                <a href="./pages/resultados.html"><img src="./assets/img/banner_resultados.png" alt="CATEGORÍAS"></a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/cancha_cideco.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>EMPEZÓ EL APERTURA</h5>
+                  <a href="./fixtures.html"><p>ENCONTRÁ TU FIXTURE AQUÍ</p></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/ligahonorcaballeros.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>LIGA DE HONOR CABALLEROS ORO</h5>
+                  <a href="./pages/lhoc.html"><p>PRIMER AÑO DE CI.DE.CO. EN LA MAYOR CATEGORÍA!!<br>CONÓCENOS AQUÍ</br></p></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/ligahonordamas.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>LIGA DE HONOR DAMAS ORO</h5>
+                  <a href="./pages/lhod.html"><p>MIRÁ NUESTRO PLANTEL AQUÍ</p></a>
+                </div>
+              </div>
             </div>
-            <div class="banner-fixtures">
-                <a href="./pages/fixtures.html"><img src="./assets/img/banner_fixtures.png" alt="FIXTURES"></a>
-            </div>
-        </section>
-        <section class="banners-mobile">
-            <div class="banner-tienda-mb">
-                <a href="./pages/tienda.html"><img src="./assets/img/banner-tienda-phone.png" alt="TIENDA"></a>
-            </div>
-            <div class="banner-resultados-mb">
-                <a href="./pages/resultados.html"><img src="./assets/img/banner-resultados-phone.png" alt="CATEGORÍAS"></a>
-            </div>
-            <div class="banner-fixtures-mb">
-                <a href="./pages/fixtures.html"><img src="./assets/img/banner-fixtures-phone.png" alt="FIXTURES"></a>
-            </div>
-        </section>
-    </main>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+          <div class="logos-index">
+            <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3283865933327!2d-58.37825352346617!3d-34.69689636242646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd2a42f8239d%3A0x8f1b615cc89d1132!2sCideco!5e0!3m2!1ses-419!2sar!4v1713298322288!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="overflow-logos"><a href="https://www.youtube.com/@cidecohandball3681" target="_blank"><img src="./assets/img/youtube_index.png" alt=""></a></div>
+            <div class="overflow-logos"><a href="https://www.facebook.com/p/Cideco-Handball-Argentina-100057400271950/?locale=es_LA" target="_blank"><img src="./assets/img/facebook_index.png" alt=""></a></div>
+            <div class="overflow-logos"><a href="" target="_blank"><img src="./assets/img/wpp_index.png" alt=""></a></div>
+            <div class="overflow-logos"><a href="https://www.instagram.com/cidecohandball/?hl=es-la" target="_blank"><img src="./assets/img/instagram_index.png" alt=""></a></div>
+            <div class="overflow-logos"><a href="https://twitter.com/handballcideco?lang=es" target="_blank"><img src="./assets/img/twitter_index.png" alt=""></a></div>
+          </div>
+          <div class="whatsapp_sticky">
+            <a href=""><img src="./assets/img/whatsapp_sticky.png" alt=""></a>
+          </div>
+        </main>
 
     <footer class="footer-index">
-        <div class="ubicacion">
-            <img src="./assets/img/location.png" alt="logo ubicación">
-            <a href="https://maps.app.goo.gl/LPvatSMmrkrqpEE1A" target="_blank">Tte. Cnel. Bueras 1171, Gerli, Provincia de Buenos Aires.</a>
-        </div>
-        <div class="redes">
-            <a href="https://www.facebook.com/p/Cideco-Handball-Argentina-100057400271950/?locale=es_LA" target="_blank"><img src="./assets/img/facebook.png" alt="Facebook de Cideco"></a>
-            <a href="https://www.instagram.com/cidecohandball/?hl=es-la" target="_blank"><img src="./assets/img/instagram.png" alt="Instagram de Cideco"></a> 
-        </div>
-    </footer>
+      <div class="ubicacion">
+          <img src="./assets/img/location.png" alt="logo ubicación">
+          <a href="https://maps.app.goo.gl/LPvatSMmrkrqpEE1A" target="_blank">Tte. Cnel. Bueras 1171, Gerli, Provincia de Buenos Aires.</a>
+      </div>
+      <div class="creditos">
+          <p>Página creada sin fines de lucro ni comerciales. Copyright Valentín Salinas ©</p>
+      </div>
+      <div class="redes">
+          <a href="https://www.youtube.com/@cidecohandball3681"><img src="./assets/img/youtube.png" alt="Logo de Youtube"></a>
+          <a href="https://www.facebook.com/p/Cideco-Handball-Argentina-100057400271950/?locale=es_LA" target="_blank"><img src="./assets/img/facebook.png" alt="Logo de Facebook"></a>
+          <a href="https://www.instagram.com/cidecohandball/?hl=es-la" target="_blank"><img src="./assets/img/instagram.png" alt="Logo de Instagram"></a>
+          <a href="https://twitter.com/handballcideco?lang=es" target="_blank"><img src="./assets/img/twitter.png" alt="Logo de X"></a>
+      </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 

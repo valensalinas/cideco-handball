@@ -577,8 +577,9 @@ td, th {
     font-size: 15px;
     font-weight: 600; }
   td, th {
-    font-size: 30px;
-    line-height: 20px; } }
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600 } }
 
 /* FIN MEDIA QUERY TABLET RESULTADOS */
 /* INICIO MEDIA QUERY MOBILE RESULTADOS */
@@ -615,10 +616,6 @@ td, th {
 /* FIN DE RESULTADOS HTML */
 /* INICIO LIGA DE HONOR HTML */
 /* INICIO MAIN LIGA DE HONOR */
-.liga-caballeros img {
-  width: 100%;
-  margin-bottom: -5px; }
-
 .main-liga-de-honor {
   background-color: #f1dd22; }
 
@@ -713,3 +710,19 @@ td, th {
 
 /* FIN MEDIA QUERY MOBILE LIGA DE HONOR */
 /* FIN LIGA DE HONOR HTML */
+/* INICIO LIGA CABALLEROS HTML */
+.liga-caballeros img {
+  width: 100%;
+  margin-bottom: -5px; }
+  /* INICIO MEDIA QUERY TABLET LIGA */
+@media (max-width: 768px) {
+  .liga-caballeros {
+    margin-top: -3px; } }
+/* FIN MEDIA QUERY MOBILE LIGA */
+/* INICIO MEDIA QUERY MOBILE LIGA */
+@media (max-width: 425px) {
+  .liga-caballeros {
+    margin-top: -20px; } 
+  .h1ligas{
+    font-size: 25px; } }
+/* FIN LIGA HTML */

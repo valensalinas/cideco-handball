@@ -1,0 +1,62 @@
+.header-index {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorMain;
+    font-family: "Jost", sans-serif;
+    height: 204px;
+
+    .logo{
+        img{
+            height: 100px;
+        }
+    }
+
+    h1{
+        font-weight: 600;
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+
+        &:hover{
+            color: $colorSecundario;
+        }
+    }
+
+    .titulo{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .nav-bar{
+        background-color: $colorSecundario;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        justify-items: center;
+
+        a{
+            text-decoration: none;
+            margin: 65px;
+            font-family: "Noto Sans Display", sans-serif;
+            font-size: 27px;
+            font-weight: 600;
+            color: black;
+
+            &:hover{
+                color: $colorDetalles;
+            }
+
+            @include tablet{
+                margin: 12px;
+                font-size: 22px;
+            }
+        }
+    }
+}

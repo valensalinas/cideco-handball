@@ -1,86 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
-/* 
-
-font-family: "Jost", sans-serif;
-
-font-family: "Jomhuria", serif;
-
-font-family: "Noto Sans Display", sans-serif;
-
-#ffd782 (amarillo)
-
-*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* INICIO INDEX.HTML */
-
-/* INICIO HEADER */
-
-.header-index{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffd782;
-    font-family: "Jost", sans-serif;
-    height: 204px;
-}
 
 
 
-h1{
-    font-weight: 600;
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-}
 
 
-h1:hover{
-    color: #7C1419;
-}
-
-.nav-bar{
-    background-color: #7C1419;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 40px;
-    align-items: center;
-    justify-items: center;
-}
-
-.nav-bar a:hover{
-    color:#ffd782;
-}
 
 
-.nav-bar a{
-    text-decoration: none;
-    margin: 65px;
-    font-family: "Noto Sans Display", sans-serif;
-    font-size: 27px;
-    font-weight: 600;
-    color: black;
-}
+
+.
 
 
-.logo img{
-    height: 100px;
-}
-
-.titulo a{
-    text-decoration: none;
-    color: black;
-}
 
 
 

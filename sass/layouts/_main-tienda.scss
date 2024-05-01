@@ -1,0 +1,48 @@
+.main-tienda{
+    background-color: $colorMain;
+    padding-top: 20px;
+
+    @include tablet{
+        padding-top: 15px;
+    }
+
+    .productos{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            font-family: "Jost", sans-serif;
+            font-size: 70px;
+            color: black;
+
+            @include tablet{
+            font-size: 50px;
+            }
+
+            @include mobile{
+                font-size: 30px;
+            }
+        }
+    }
+
+    .articulos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 82,5%;
+        margin-bottom: 10px;
+
+        @include tablet{
+            width: 85%;
+            grid-template-columns: repeat(3, 1fr);
+            place-content: center;
+        }
+
+        @include mobile{
+            width: 92%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

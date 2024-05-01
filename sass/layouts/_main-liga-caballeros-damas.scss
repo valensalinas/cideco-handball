@@ -1,0 +1,42 @@
+.liga-caballeros{
+
+    margin-bottom: 5px;
+    
+    .plantel-mobile{
+        display: none;
+    }
+
+    img{
+        width: 100%;
+        margin-bottom: -5px;
+
+        @include tablet{
+            margin-top: -3px;
+        }
+
+        @include mobile{
+            margin: 0px;
+        }
+    }
+
+    .h1ligas{
+        @include mobile{
+            font-size: 25px;
+        }
+    }
+
+    .desktop-tablet{
+        @include mobile{
+            display: none;
+        }
+    }
+
+    .plantel-mobile{
+
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: -5px;
+        }
+    }
+}

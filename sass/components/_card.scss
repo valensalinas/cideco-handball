@@ -1,0 +1,104 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: $colorSecundario;
+    border: 3px solid black;
+    position: unset;
+    width: 300px;
+
+    @include tablet{
+        margin: 10px;
+        width: 200px;
+    }
+
+    @include mobile{
+        width: 175px;
+    }
+
+    img{
+        width: 250px;
+        height: 250px;
+        border: 3px solid black;
+        margin-top: 20px;
+        border-radius: 5px;
+
+        @include tablet{
+                width: 150px;
+                height: 150px;
+                border: 3px solid black;
+            }
+    }
+
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            margin: 5px;
+            margin-top: 15px;
+            font-family: "Noto Sans Display", sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            color: $colorDetalles;
+
+            @include tablet{
+                font-size: 25px;
+                margin-top: 10px;
+            }
+
+            @include mobile{
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+
+        p{
+            color: $colorDetalles;
+            font-family: "Noto Sans Display", sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+
+            @include tablet{
+                margin-bottom: 10px;
+                font-size: 17px;
+            }
+
+            @include mobile{
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+        }
+
+        button{
+            margin-bottom: 20px;
+            background-color: $colorDetalles;
+            height: 50px;
+            width: 175px;
+            font-family: "Noto Sans Display", sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            font-style: none;
+            border-radius: 10px;
+            color: black;
+
+            @include tablet{
+                height: 40px;
+                width: 150px;
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            @include mobile{
+                height: 30px;
+                width: 120px;
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+    }
+}

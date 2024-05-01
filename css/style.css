@@ -777,10 +777,10 @@ header nav a img {
           font-size: 15px; } }
 
 #consulta {
-  max-width: 350px;
-  max-height: 300px;
-  min-height: 100px;
-  min-width: 150px; }
+  max-width: 300px;
+  max-height: 250px;
+  min-height: 80px;
+  min-width: 120px; }
 
 .whatsapp_sticky {
   position: fixed;

@@ -64,7 +64,6 @@ h1 {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  /* height: calc(100vh - var(--altura_header)); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,7 +72,7 @@ h1 {
   transition: all .3s; }
 
 .link {
-  font-size: 40px;
+  font-size: 35px;
   color: black;
   font-weight: bold; }
 
@@ -109,17 +108,13 @@ header nav a img {
   width: 50px; }
 
 .main-index {
-  height: 975px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center; }
-  @media screen and (max-width: 768px) {
-    .main-index {
-      height: 820px; } }
   @media screen and (max-width: 425px) {
     .main-index {
-      height: 100vh; } }
+      height: 87vh; } }
   .main-index h2 {
     background-color: black;
     color: yellow;
@@ -134,42 +129,13 @@ header nav a img {
   .main-index a {
     text-decoration: none; }
   .main-index .google-maps {
-    width: 200px;
-    height: 200px;
-    border-radius: 5px; }
+    width: 1350px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 40px; }
     @media screen and (max-width: 768px) {
       .main-index .google-maps {
         display: none; } }
-  .main-index .logos-index {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-top: 40px; }
-    @media screen and (max-width: 768px) {
-      .main-index .logos-index {
-        gap: 28px; } }
-    .main-index .logos-index img {
-      width: 200px;
-      height: 200px;
-      border-radius: 5px;
-      overflow: hidden; }
-      .main-index .logos-index img:hover {
-        transform: scale(1.1); }
-      @media screen and (max-width: 768px) {
-        .main-index .logos-index img {
-          width: 100px;
-          height: 100px; } }
-      @media screen and (max-width: 425px) {
-        .main-index .logos-index img {
-          width: 50px;
-          height: 50px; } }
-    @media screen and (max-width: 425px) {
-      .main-index .logos-index {
-        gap: 15px;
-        margin-top: 20px; } }
-  .main-index .overflow-logos {
-    overflow: hidden;
-    border-radius: 5px; }
   .main-index .iframe-mobile-tablet {
     display: none; }
     @media screen and (max-width: 768px) {
@@ -178,17 +144,89 @@ header nav a img {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 40px; } }
-    @media screen and (max-width: 425px) {
-      .main-index .iframe-mobile-tablet {
-        margin-top: 20px; } }
+        margin-bottom: 40px; } }
   .main-index .maps-mobile-tablet {
     height: 250px;
     width: 615px; }
     @media screen and (max-width: 425px) {
       .main-index .maps-mobile-tablet {
-        height: 150px;
-        width: 310px; } }
+        height: 200px;
+        width: 300px; } }
+  .main-index .h3-bienvenidos {
+    display: none; }
+    @media screen and (max-width: 425px) {
+      .main-index .h3-bienvenidos {
+        display: flex; } }
+  .main-index .estadisticas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 300px;
+    background-color: yellow;
+    margin-bottom: 40px;
+    width: 100%; }
+    @media screen and (max-width: 768px) {
+      .main-index .estadisticas {
+        gap: 40px; } }
+    @media screen and (max-width: 425px) {
+      .main-index .estadisticas {
+        gap: 10px; } }
+    .main-index .estadisticas .hexagonos {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .main-index .estadisticas .hexagonos p {
+        text-align: center;
+        font-family: "Noto Sans Display", sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        padding: 30px;
+        margin: 0px; }
+        @media screen and (max-width: 768px) {
+          .main-index .estadisticas .hexagonos p {
+            font-size: 20px; } }
+        @media screen and (max-width: 425px) {
+          .main-index .estadisticas .hexagonos p {
+            font-size: 15px;
+            padding: 0px;
+            margin-bottom: 30px; } }
+    .main-index .estadisticas img {
+      height: 150px;
+      width: 150px; }
+      @media screen and (max-width: 768px) {
+        .main-index .estadisticas img {
+          height: 100px;
+          width: 100px; } }
+  .main-index .main-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .main-index .h3-bienvenidos {
+    color: #e20d18;
+    font-family: "Noto Sans Display", sans-serif; }
+    .main-index .h3-bienvenidos h3 {
+      font-size: 25px;
+      font-weight: 800;
+      text-align: center;
+      margin: 20px;
+      border-radius: 5px; }
+  .main-index .img-cancha {
+    display: none; }
+    @media screen and (max-width: 425px) {
+      .main-index .img-cancha img {
+        width: 90%;
+        border-radius: 5px; } }
+    @media screen and (max-width: 425px) {
+      .main-index .img-cancha {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; } }
 
 .main-tienda {
   background-color: white;
@@ -263,17 +301,21 @@ header nav a img {
           font-size: 18px; } }
 
 .main-resultados {
-  background-color: white;
-  padding: 10px 0px; }
-  @media screen and (max-width: 425px) {
-    .main-resultados h2 {
-      border-radius: 5px; } }
+  background-color: white; }
+  .main-resultados .table-caballeros {
+    margin-right: 14px; }
+  .main-resultados .table-damas-a {
+    margin-right: 14px; }
+  .main-resultados .table-damas-e {
+    margin-right: 14px; }
+  .main-resultados h2 {
+    border-radius: 5px; }
   .main-resultados .tables {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin: 40px;
+    margin: 20px;
     font-family: "Noto Sans Display", sans-serif;
     font-size: 50px;
     color: black; }
@@ -289,7 +331,7 @@ header nav a img {
       color: black; }
   .main-resultados .fechash2 {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: 700; }
     @media screen and (max-width: 425px) {
       .main-resultados .fechash2 {
@@ -301,10 +343,11 @@ header nav a img {
     justify-content: center;
     gap: 30px;
     align-items: center;
-    margin-top: 40px;
     font-family: "Jost", sans-serif;
     font-size: 30px;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 40px; }
     @media screen and (max-width: 768px) {
       .main-resultados .fechas {
         gap: 10px;
@@ -321,7 +364,8 @@ header nav a img {
         font-size: 30px;
         font-weight: 600;
         margin-left: 40px;
-        margin-right: 40px; } }
+        margin-right: 40px;
+        margin-bottom: 40px; } }
     .main-resultados .fechas a {
       border: 3px solid #e20d18;
       padding: 3px 8px;
@@ -334,22 +378,17 @@ header nav a img {
       @media screen and (max-width: 425px) {
         .main-resultados .fechas a {
           text-align: center; } }
-  .main-resultados .escudos {
-    text-align: center;
-    width: 50px;
-    height: 50px; }
-    @media screen and (max-width: 768px) {
-      .main-resultados .escudos img {
-        width: 60px;
-        height: 60px; } }
-    @media screen and (max-width: 425px) {
-      .main-resultados .escudos img {
-        height: 30px;
-        width: 30px; } }
+  @media screen and (max-width: 768px) {
+    .main-resultados .escudos img {
+      width: 60px;
+      height: 60px; } }
+  @media screen and (max-width: 425px) {
+    .main-resultados .escudos img {
+      height: 30px;
+      width: 30px; } }
   .main-resultados td, .main-resultados th {
     text-align: center;
     justify-content: center;
-    align-items: center;
     width: 450px;
     height: 50px;
     font-size: 25px;
@@ -363,7 +402,7 @@ header nav a img {
       .main-resultados td, .main-resultados th {
         font-size: 10px;
         line-height: 10px;
-        font-weight: 800; } }
+        font-weight: 600; } }
   .main-resultados .video-planilla {
     width: 150px;
     height: 100px;
@@ -385,16 +424,13 @@ header nav a img {
   background-color: white; }
   @media screen and (max-width: 425px) {
     .main-contacto {
-      height: 550px; } }
+      height: 100vh; } }
   .main-contacto .contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh; }
-    @media screen and (max-width: 425px) {
-      .main-contacto .contact-container {
-        height: 100%; } }
   .main-contacto .contact-form {
     background-color: #e20d18;
     padding: 50px;
@@ -404,63 +440,27 @@ header nav a img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px; }
+    gap: 30px; }
     @media screen and (max-width: 425px) {
       .main-contacto .contact-form {
-        width: 280px; } }
+        width: 280px;
+        height: 50vh; } }
   .main-contacto .form-division button {
+    color: black;
     height: 40px;
     width: 90px;
     background-color: yellow;
     border-radius: 5px;
     font-family: "Jost", sans-serif;
     font-size: 18px;
-    border: 2px solid black; }
+    border: 2px solid black;
+    margin-top: 30px; }
   .main-contacto :placeholder-shown {
     padding: 3px;
     font-family: "Jost", sans-serif;
     font-size: 15px;
     border: 2px solid black;
     border-radius: 5px; }
-
-.main-mobile {
-  display: none; }
-
-@media (max-width: 425px) {
-  .main-mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-  .img-cancha img {
-    width: 90%;
-    border-radius: 5px;
-    margin: 20px; }
-  .h3-bienvenidos {
-    color: yellow;
-    font-family: "Noto Sans Display", sans-serif; }
-    .h3-bienvenidos h3 {
-      font-size: 25px;
-      text-align: center;
-      background-color: black;
-      margin: 0px 20px;
-      border-radius: 5px; }
-  .hexagonos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 30px;
-    height: 150px; } }
-
-@media (max-width: 375px) {
-  .img-cancha img {
-    width: 89%; } }
-
-@media (max-width: 320px) {
-  .img-cancha img {
-    width: 87%; } }
 
 .main-liga-de-honor {
   background-color: white; }
@@ -562,6 +562,9 @@ header nav a img {
       .main-liga-de-honor .contenedor-ligas-tablet-mobile img {
         width: 380px;
         margin-top: 20px; } }
+    @media screen and (max-width: 320) {
+      .main-liga-de-honor .contenedor-ligas-tablet-mobile img {
+        width: 350px; } }
 
 .liga-caballeros {
   margin-bottom: 5px; }
@@ -644,6 +647,10 @@ header nav a img {
     gap: 10px;
     margin-right: 10px;
     margin-left: 10px; }
+    @media screen and (max-width: 425px) {
+      .footer-index .redes img {
+        width: 40px;
+        height: 40px; } }
     @media screen and (max-width: 425px) {
       .footer-index .redes {
         margin-top: 10px;
@@ -781,6 +788,9 @@ header nav a img {
   max-height: 250px;
   min-height: 80px;
   min-width: 120px; }
+  @media screen and (max-width: 425px) {
+    #consulta {
+      width: 200px; } }
 
 .whatsapp_sticky {
   position: fixed;

@@ -3,4 +3,8 @@
     max-height: 250px;
     min-height: 80px;
     min-width: 120px;
+
+    @include mobile{
+        width: 200px;
+    }
 }

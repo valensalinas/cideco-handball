@@ -61,7 +61,6 @@ h1{
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    /* height: calc(100vh - var(--altura_header)); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,7 +70,7 @@ h1{
 }
 
 .link {
-    font-size: 40px;
+    font-size: 35px;
     color: black;
     font-weight: bold;
 }

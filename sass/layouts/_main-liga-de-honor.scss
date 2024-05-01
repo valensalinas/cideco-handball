@@ -137,6 +137,10 @@
                 width: 380px;
                 margin-top: 20px;
             }
+
+            @include mobile-sm{
+                width: 350px;
+            }
         }
     }
 }

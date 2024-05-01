@@ -114,7 +114,7 @@ header nav a img {
   align-items: center; }
   @media screen and (max-width: 425px) {
     .main-index {
-      height: 87vh; } }
+      height: 100vh; } }
   .main-index h2 {
     background-color: black;
     color: yellow;

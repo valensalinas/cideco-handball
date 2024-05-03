@@ -475,6 +475,10 @@ header nav a img {
   @media screen and (max-width: 425px) {
     .main-liga-de-honor {
       height: 100vh; } }
+  @media (max-width: 320px) {
+    .main-liga-de-honor {
+      width: 100%;
+      height: 80vh; } }
   .main-liga-de-honor .liga-caballeros img {
     width: 100%;
     margin-bottom: -5px; }
@@ -544,6 +548,10 @@ header nav a img {
         height: 90vh;
         justify-content: space-evenly;
         width: 100%; } }
+    @media (max-width: 320px) {
+      .main-liga-de-honor .contenedor-ligas-tablet-mobile {
+        width: 100%;
+        height: 70vh; } }
     @media screen and (max-width: 768px) {
       .main-liga-de-honor .contenedor-ligas-tablet-mobile h2 {
         font-family: "Noto Sans Display", sans-serif;
@@ -562,9 +570,9 @@ header nav a img {
       .main-liga-de-honor .contenedor-ligas-tablet-mobile img {
         width: 380px;
         margin-top: 20px; } }
-    @media screen and (max-width: 320) {
+    @media (max-width: 320px) {
       .main-liga-de-honor .contenedor-ligas-tablet-mobile img {
-        width: 350px; } }
+        width: 80%; } }
 
 .liga-caballeros {
   margin-bottom: 5px; }

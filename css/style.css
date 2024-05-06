@@ -727,6 +727,9 @@ header nav a img {
   height: 70vh;
   margin-top: 40px;
   border-radius: 5px; }
+  @media (max-width: 1024px) {
+    #carouselExampleCaptions img {
+      height: 55vh; } }
   @media screen and (max-width: 768px) {
     #carouselExampleCaptions img {
       height: 35vh; } }

@@ -136,9 +136,9 @@ header nav a img {
     height: 300px;
     border-radius: 5px;
     margin-bottom: 40px; }
-    @media (max-width: 1024px) {
+    @media (max-width: 1439px) {
       .main-index .google-maps {
-        width: 700px; } }
+        width: 850px; } }
     @media screen and (max-width: 768px) {
       .main-index .google-maps {
         display: none; } }

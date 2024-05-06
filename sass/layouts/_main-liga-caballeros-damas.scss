@@ -29,9 +29,19 @@
         @include mobile{
             display: none;
         }
+
+        @media(max-width:670px){
+            display: none;
+        }
     }
 
     .plantel-mobile{
+
+        @media(max-width:670px){
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0px;
+        }
 
         @include mobile{
             display: flex;

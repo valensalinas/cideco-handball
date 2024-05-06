@@ -622,6 +622,14 @@ header nav a img {
   @media screen and (max-width: 425px) {
     .liga-caballeros .desktop-tablet {
       display: none; } }
+  @media (max-width: 670px) {
+    .liga-caballeros .desktop-tablet {
+      display: none; } }
+  @media (max-width: 670px) {
+    .liga-caballeros .plantel-mobile {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0px; } }
   @media screen and (max-width: 425px) {
     .liga-caballeros .plantel-mobile {
       display: flex;

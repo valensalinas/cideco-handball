@@ -37,9 +37,9 @@
         height: 300px;
         border-radius: 5px;
         margin-bottom: 40px;
-
-        @media(max-width:1024px){
-            width: 900px;
+        
+        @media (max-width:1024px){
+            width: 700px;
         }
 
         @include tablet{

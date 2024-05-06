@@ -136,6 +136,9 @@ header nav a img {
     height: 300px;
     border-radius: 5px;
     margin-bottom: 40px; }
+    @media (max-width: 1024px) {
+      .main-index .google-maps {
+        width: 900px; } }
     @media screen and (max-width: 768px) {
       .main-index .google-maps {
         display: none; } }
@@ -173,6 +176,9 @@ header nav a img {
     background-color: yellow;
     margin-bottom: 40px;
     width: 100%; }
+    @media (max-width: 1024px) {
+      .main-index .estadisticas {
+        gap: 60px; } }
     @media screen and (max-width: 768px) {
       .main-index .estadisticas {
         gap: 40px; } }

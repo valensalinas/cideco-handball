@@ -1,5 +1,9 @@
 .carousel-inner {
 
+    @media (max-width:767px){
+        display: none;
+    }
+
     @include mobile {
         display: none;
     }
@@ -32,12 +36,6 @@
 
         @include tablet {
             height: 35vh;
-        }
-
-        @include mobile {
-            height: 20vh;
-            margin-top: 20px;
-            border-radius: 5px;
         }
     }
 }

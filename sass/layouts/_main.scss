@@ -92,6 +92,10 @@
         margin-bottom: 40px;
         width: 100%;
 
+        @media (max-width:1439px){
+            gap: 150px;
+        }
+
         @media(max-width:1024px){
             gap: 60px;
         }

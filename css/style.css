@@ -176,6 +176,9 @@ header nav a img {
     background-color: yellow;
     margin-bottom: 40px;
     width: 100%; }
+    @media (max-width: 1439px) {
+      .main-index .estadisticas {
+        gap: 150px; } }
     @media (max-width: 1024px) {
       .main-index .estadisticas {
         gap: 60px; } }

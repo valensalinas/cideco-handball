@@ -280,6 +280,11 @@ header nav a img {
     grid-template-columns: repeat(4, 1fr);
     width: 82,5%;
     margin-bottom: 10px; }
+    @media (max-width: 1024px) {
+      .main-tienda .articulos {
+        width: 85%;
+        grid-template-columns: repeat(3, 1fr);
+        place-content: center; } }
     @media screen and (max-width: 768px) {
       .main-tienda .articulos {
         width: 85%;
@@ -755,6 +760,9 @@ header nav a img {
   border: 3px solid black;
   position: unset;
   width: 300px; }
+  @media (max-width: 1024px) {
+    .card {
+      width: 250px; } }
   @media screen and (max-width: 768px) {
     .card {
       margin: 10px;
@@ -768,6 +776,10 @@ header nav a img {
     border: 3px solid black;
     margin-top: 20px;
     border-radius: 5px; }
+    @media (max-width: 1024px) {
+      .card img {
+        width: 200px;
+        height: 200px; } }
     @media screen and (max-width: 768px) {
       .card img {
         width: 150px;

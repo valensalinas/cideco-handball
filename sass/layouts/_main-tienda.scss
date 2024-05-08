@@ -34,6 +34,12 @@
         width: 82,5%;
         margin-bottom: 10px;
 
+        @media(max-width:1024px){
+            width: 85%;
+            grid-template-columns: repeat(3, 1fr);
+            place-content: center;
+        }
+
         @include tablet{
             width: 85%;
             grid-template-columns: repeat(3, 1fr);

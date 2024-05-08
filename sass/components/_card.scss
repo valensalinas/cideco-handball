@@ -9,6 +9,10 @@
     position: unset;
     width: 300px;
 
+    @media(max-width:1024px){
+        width: 250px;
+    }
+
     @include tablet{
         margin: 10px;
         width: 200px;
@@ -24,6 +28,11 @@
         border: 3px solid black;
         margin-top: 20px;
         border-radius: 5px;
+
+        @media(max-width:1024px){
+            width: 200px;
+            height: 200px;
+        }
 
         @include tablet{
                 width: 150px;

@@ -11,6 +11,8 @@
         align-items: center;
         flex-direction: column;
         height: 100vh;
+
+
     }
     
     .contact-form {
@@ -23,6 +25,10 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
+
+        @media(max-width:580px){
+            width: 380px;
+        }
 
         @include mobile{
             width: 280px;

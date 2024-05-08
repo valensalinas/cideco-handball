@@ -507,6 +507,9 @@ header nav a img {
     justify-content: center;
     align-items: center;
     gap: 30px; }
+    @media (max-width: 580px) {
+      .main-contacto .contact-form {
+        width: 380px; } }
     @media screen and (max-width: 425px) {
       .main-contacto .contact-form {
         width: 280px;

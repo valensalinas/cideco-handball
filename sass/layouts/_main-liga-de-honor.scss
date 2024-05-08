@@ -104,16 +104,16 @@
 
     .contenedor-ligas-tablet-mobile{
         display: none;
-        margin-top: 40px;
-
+        
         @include tablet{
             display: flex;
             flex-direction: column;
             text-align: center;
             align-items: center;
+            margin-top: 40px;
         }
 
-        @include mobile{
+        @media (max-width:670px){
             height: 90vh;
             justify-content: space-evenly;
             width: 100%;
@@ -148,7 +148,7 @@
                 margin: 20px;
             }
 
-            @include mobile{
+            @media (max-width:670px){
                 width: 90%;
                 margin-top: 20px;
             }

@@ -50,5 +50,9 @@
             width: 92%;
             grid-template-columns: repeat(2, 1fr);
         }
+
+        @media (max-width:375px){
+            width: 80%;
+        }
     }
 }

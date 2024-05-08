@@ -294,6 +294,9 @@ header nav a img {
       .main-tienda .articulos {
         width: 92%;
         grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 375px) {
+      .main-tienda .articulos {
+        width: 80%; } }
 
 .main-fixtures {
   background-color: white;
@@ -378,13 +381,16 @@ header nav a img {
     font-weight: 600;
     margin-bottom: 40px;
     margin-top: 40px; }
+    @media (max-width: 1024px) {
+      .main-resultados .fechas {
+        gap: 15px; } }
     @media screen and (max-width: 768px) {
       .main-resultados .fechas {
         gap: 10px;
         margin-top: 40px;
         font-size: 15px;
         font-weight: 600; } }
-    @media screen and (max-width: 425px) {
+    @media (max-width: 710px) {
       .main-resultados .fechas {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -405,17 +411,25 @@ header nav a img {
       color: black; }
       .main-resultados .fechas a:hover {
         background-color: yellow; }
-      @media screen and (max-width: 425px) {
+      @media (max-width: 710px) {
         .main-resultados .fechas a {
           text-align: center; } }
   @media screen and (max-width: 768px) {
     .main-resultados .escudos img {
       width: 60px;
       height: 60px; } }
+  @media (max-width: 575px) {
+    .main-resultados .escudos img {
+      height: 30px;
+      width: 30px; } }
   @media screen and (max-width: 425px) {
     .main-resultados .escudos img {
       height: 30px;
       width: 30px; } }
+  @media (max-width: 390px) {
+    .main-resultados .escudos img {
+      height: 15px;
+      width: 15px; } }
   .main-resultados td, .main-resultados th {
     text-align: center;
     justify-content: center;
@@ -428,16 +442,26 @@ header nav a img {
         font-size: 15px;
         font-weight: 500;
         line-height: 20px; } }
+    @media (max-width: 575px) {
+      .main-resultados td, .main-resultados th {
+        font-size: 12px; } }
     @media screen and (max-width: 425px) {
       .main-resultados td, .main-resultados th {
         font-size: 10px;
         line-height: 10px;
         font-weight: 600; } }
+    @media (max-width: 390px) {
+      .main-resultados td, .main-resultados th {
+        font-size: 9px; } }
   .main-resultados .video-planilla {
     width: 150px;
     height: 100px;
     margin-left: 10px;
     align-items: center; }
+    @media (max-width: 390px) {
+      .main-resultados .video-planilla {
+        height: 10px;
+        width: 10px; } }
     .main-resultados .video-planilla img {
       width: 40px;
       height: 40px; }
@@ -445,10 +469,14 @@ header nav a img {
         .main-resultados .video-planilla img {
           width: 30px;
           height: 30px; } }
-      @media screen and (max-width: 425px) {
+      @media (max-width: 575px) {
         .main-resultados .video-planilla img {
-          width: 20px;
-          height: 20px; } }
+          height: 15px;
+          width: 15px; } }
+      @media (max-width: 390px) {
+        .main-resultados .video-planilla img {
+          height: 10px;
+          width: 10px; } }
 
 .main-contacto {
   background-color: white; }
@@ -566,15 +594,15 @@ header nav a img {
       .main-liga-de-honor .contenedor-ligas figure:hover > a img {
         transform: scale(1.3); }
   .main-liga-de-honor .contenedor-ligas-tablet-mobile {
-    display: none;
-    margin-top: 40px; }
+    display: none; }
     @media screen and (max-width: 768px) {
       .main-liga-de-honor .contenedor-ligas-tablet-mobile {
         display: flex;
         flex-direction: column;
         text-align: center;
-        align-items: center; } }
-    @media screen and (max-width: 425px) {
+        align-items: center;
+        margin-top: 40px; } }
+    @media (max-width: 670px) {
       .main-liga-de-honor .contenedor-ligas-tablet-mobile {
         height: 90vh;
         justify-content: space-evenly;
@@ -600,7 +628,7 @@ header nav a img {
         border-radius: 5px;
         box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
         margin: 20px; } }
-    @media screen and (max-width: 425px) {
+    @media (max-width: 670px) {
       .main-liga-de-honor .contenedor-ligas-tablet-mobile img {
         width: 90%;
         margin-top: 20px; } }
@@ -756,24 +784,29 @@ header nav a img {
   justify-content: center;
   align-items: center;
   margin: 20px;
-  background-color: #e20d18;
+  background-color: white;
   border: 3px solid black;
   position: unset;
-  width: 300px; }
+  width: 300px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25); }
   @media (max-width: 1439px) {
     .card {
       width: 250px; } }
   @media screen and (max-width: 768px) {
     .card {
       margin: 10px;
-      width: 200px; } }
+      width: 200px;
+      border: 3px solid black; } }
   @media screen and (max-width: 425px) {
     .card {
-      width: 175px; } }
+      width: 175px;
+      border: 2px solid black; } }
+  @media (max-width: 375px) {
+    .card {
+      width: 130px; } }
   .card img {
     width: 250px;
     height: 250px;
-    border: 3px solid black;
     margin-top: 20px;
     border-radius: 5px; }
     @media (max-width: 1439px) {
@@ -783,8 +816,11 @@ header nav a img {
     @media screen and (max-width: 768px) {
       .card img {
         width: 150px;
-        height: 150px;
-        border: 3px solid black; } }
+        height: 150px; } }
+    @media (max-width: 375px) {
+      .card img {
+        width: 110px;
+        height: 110px; } }
   .card .descripcion {
     display: flex;
     flex-direction: column;
@@ -795,8 +831,8 @@ header nav a img {
       margin-top: 15px;
       font-family: "Noto Sans Display", sans-serif;
       font-size: 30px;
-      font-weight: 600;
-      color: yellow; }
+      font-weight: 700;
+      color: black; }
       @media screen and (max-width: 768px) {
         .card .descripcion h3 {
           font-size: 25px;
@@ -806,41 +842,51 @@ header nav a img {
           font-size: 20px;
           margin-top: 10px; } }
     .card .descripcion p {
-      color: yellow;
+      color: black;
       font-family: "Noto Sans Display", sans-serif;
-      font-size: 20px;
-      font-weight: 500; }
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 40px; }
       @media screen and (max-width: 768px) {
         .card .descripcion p {
           margin-bottom: 10px;
-          font-size: 17px; } }
+          font-size: 15px; } }
       @media screen and (max-width: 425px) {
         .card .descripcion p {
-          font-size: 12px;
-          margin-bottom: 10px; } }
+          font-size: 11px;
+          margin-bottom: 10px;
+          line-height: 30px; } }
     .card .descripcion button {
       margin-bottom: 20px;
-      background-color: yellow;
-      height: 50px;
-      width: 175px;
+      background-color: black;
+      height: 40px;
+      width: 160px;
       font-family: "Noto Sans Display", sans-serif;
-      font-weight: 700;
-      font-size: 25px;
+      font-weight: 600;
+      font-size: 20px;
       font-style: none;
       border-radius: 10px;
-      color: black; }
+      color: white;
+      border: 3px solid black; }
+      .card .descripcion button:hover {
+        background-color: yellow;
+        color: black; }
       @media screen and (max-width: 768px) {
         .card .descripcion button {
-          height: 40px;
-          width: 150px;
+          height: 35px;
+          width: 140px;
           font-weight: 700;
-          font-size: 20px; } }
+          font-size: 18px; } }
       @media screen and (max-width: 425px) {
         .card .descripcion button {
           height: 30px;
-          width: 120px;
+          width: 110px;
           font-weight: 600;
-          font-size: 15px; } }
+          font-size: 13px;
+          border: 2px solid black; } }
+      @media (max-width: 375px) {
+        .card .descripcion button {
+          width: 100px; } }
 
 #consulta {
   max-width: 300px;

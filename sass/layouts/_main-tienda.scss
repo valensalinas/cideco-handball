@@ -34,8 +34,8 @@
         width: 82,5%;
         margin-bottom: 10px;
 
-        @media(max-width:1024px){
-            width: 85%;
+        @media(max-width:1439px){
+            width: 60%;
             grid-template-columns: repeat(3, 1fr);
             place-content: center;
         }

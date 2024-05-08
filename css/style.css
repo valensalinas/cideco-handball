@@ -381,9 +381,12 @@ header nav a img {
     font-weight: 600;
     margin-bottom: 40px;
     margin-top: 40px; }
-    @media (max-width: 1024px) {
+    @media (max-width: 1160px) {
       .main-resultados .fechas {
-        gap: 15px; } }
+        gap: 15px;
+        margin-top: 40px;
+        font-size: 15px;
+        font-weight: 600; } }
     @media screen and (max-width: 768px) {
       .main-resultados .fechas {
         gap: 10px;
@@ -437,6 +440,11 @@ header nav a img {
     height: 50px;
     font-size: 25px;
     font-weight: 500; }
+    @media (max-width: 1160px) {
+      .main-resultados td, .main-resultados th {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px; } }
     @media screen and (max-width: 768px) {
       .main-resultados td, .main-resultados th {
         font-size: 15px;
